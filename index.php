@@ -1,5 +1,7 @@
 Hello
-<? php 
-  echo date("Y-m-r");
+<?php
+echo "Today is " . date("Y/m/d") . "<br>";
+echo "Today is " . date("Y.m.d") . "<br>";
+echo "Today is " . date("Y-m-d") . "<br>";
+echo "Today is " . date("l");
 ?>
-     
